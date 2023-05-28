@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+/* home==== */
+.links{
+  height: 100vh;
+   text-align: center;
+   background-color: rgb(31, 72, 22);
+   color: rgb(250, 243, 243);
+   display: flex;
+   flex-direction: column; 
+  
+}
+.links a{
+  margin: 10px;
+}
+.btn{
+  width: 200px;
+  height: 40px;
+  border-radius: 15px;
+  border: 2px solid white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+/* vehicle details============ */
+.deatils{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+ 
+.details_info{
+  width: 250px;
+  height: 250px;
+  
+  margin: 20px;
+  background-color: rgb(42, 82, 226);
+  color: rgb(255, 253, 253);
+  padding: 20px;
+  border: 2px solid rgb(12, 12, 12);
+  border-radius: 20px;
+}
+.details_info p{
+  margin: 20px;
+  font-size: 20px;
+}
+
+/* add vehicle++++++====== */
+.inputs{
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+}
+.addform{
+  display: grid;
+  max-width: 50%;
+  height: 60%;
+  margin-top: 50px;
+  grid-template-columns: 300px;
+  row-gap: 20px;
+  padding: 30px;
+  background-color: rgb(209, 213, 176);
+  border-radius: 20px;
+}
+.addform input{
+  height: 30px;
+  outline: none;
+  border: 1px yellowgreen solid;
+  border-radius: 5px;
+}
+.addbtn{
+  background-color: rgb(23, 69, 44);
+  color: white;
+  font-size: 20px;
+}
+.inputs h1{
+  color: green;
+  text-align: center;
+  font-style: oblique;
+}
